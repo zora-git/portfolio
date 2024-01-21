@@ -1,4 +1,40 @@
-/* font-family: 'Bellefair', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Space Mono', monospace;
+:root {
+  --main-font-family: "Bellefair", serif;
+  --secondary-font-family: "Space Mono", monospace;
+  --tertiary-font-family: "Poppins", sans-serif;
+}
 
+body {
+  font-family: var(--main-font-family);
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+h1.main {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 250px auto;
+  text-align: center;
+  color: black;
+}
+
+.name {
+  color: #c6c3c3;
+}
