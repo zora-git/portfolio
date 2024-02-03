@@ -83,13 +83,14 @@ h3.art-project-summary {
   text-align: center;
 }
 
-p {
+.project-description {
   margin-top: 20px;
   font-size: 18px;
 }
 
 .left-indent {
   margin-left: 120px;
+  margin-top: 20px;
 }
 
 .align-image-to-center {
@@ -101,6 +102,7 @@ p {
   font-family: var(--main-font-family);
   font-size: 30px;
   max-width: 1200px;
+  padding-bottom: 150px;
 }
 
 .items {
@@ -125,8 +127,12 @@ p {
   background-color: #ccc;
 }
 .hidden-content {
-  padding: 0 18px;
+  padding: 20px 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: white;
+  font-family: var(--tertiary-font-family);
+  font-size: 13px;
+  text-align: left;
+  line-height: normal;
 }
