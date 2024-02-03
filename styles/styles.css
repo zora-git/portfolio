@@ -60,7 +60,7 @@ h1.hero {
 }
 
 .art-project {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 h2.art-project-title {
@@ -80,6 +80,7 @@ h3.art-project-summary {
 .art-project-image {
   max-width: 600px;
   border-radius: 4px;
+  text-align: center;
 }
 
 p {
@@ -89,4 +90,8 @@ p {
 
 .left-indent {
   margin-left: 120px;
+}
+
+.align-image-to-center {
+  text-align: center;
 }
