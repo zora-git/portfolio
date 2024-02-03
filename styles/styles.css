@@ -95,3 +95,38 @@ p {
 .align-image-to-center {
   text-align: center;
 }
+
+.container {
+  text-align: center;
+  font-family: var(--main-font-family);
+  font-size: 30px;
+  max-width: 1200px;
+}
+
+.items {
+  line-height: 100px;
+}
+
+.collapsible {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.collapsible:hover {
+  background-color: #ccc;
+}
+.hidden-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
