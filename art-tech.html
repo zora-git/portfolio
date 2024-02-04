@@ -22,6 +22,8 @@
       src="https://kit.fontawesome.com/73fd2d3306.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -76,7 +78,13 @@
     <main>
       <div class="mx-auto" style="max-width: 600px">
         <div class="art-project" id="tears-of-light">
-          <h2 class="art-project-title">Tears of Light</h2>
+          <h2
+            class="art-project-title"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            Tears of Light
+          </h2>
           <h3 class="art-project-summary">
             Category: (Prototype) Interactive installation <br />
             Role: Producer<br />
@@ -84,7 +92,7 @@
             Date: 2022.12~2023.02 <br />
             Supporter: Dobong Foundation for Arts & Culture <br />
           </h3>
-          <div>
+          <div data-aos="fade-right" data-aos-duration="3000">
             <img
               src="/img/lachrymatory_prototype.png"
               class="img-fluid"
@@ -96,7 +104,13 @@
           </p>
         </div>
         <div class="art-project" id="lachrymatory">
-          <h2 class="art-project-title">Lachrymatory</h2>
+          <h2
+            class="art-project-title"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            Lachrymatory
+          </h2>
           <h3 class="art-project-summary">
             Category: Game (Unity Game Engine) <br />
             Role: Producer & Game Scenario<br />
@@ -109,7 +123,7 @@
             </a>
             <br />
           </h3>
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1500">
             <a href="https://lachrymatory.io">
               <img
                 src="/img/lachrymatory.jpg"
@@ -126,7 +140,13 @@
           </p>
         </div>
         <div class="art-project" id="convicted-of-peace">
-          <h2 class="art-project-title">Convicted of Peace</h2>
+          <h2
+            class="art-project-title"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            Convicted of Peace
+          </h2>
           <h3 class="art-project-summary">
             Category: Literature <br />
             Role: Writer <br />
@@ -134,7 +154,11 @@
             Date: 2021.11~2022.04 <br />
             Supporter: Arts Council Korea <br />
           </h3>
-          <div class="align-image-to-center">
+          <div
+            class="align-image-to-center"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+          >
             <img
               src="/img/convicted_of_peace_sample_2x.png"
               class="img-fluid shadow"
@@ -150,7 +174,13 @@
           </p>
         </div>
         <div class="art-project" id="soulmark">
-          <h2 class="art-project-title">Soulmark</h2>
+          <h2
+            class="art-project-title"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+          >
+            Soulmark
+          </h2>
           <h3 class="art-project-summary">
             Category: Mobile App (IOS & Android) <br />
             Role: Producer & Designer<br />
@@ -158,7 +188,11 @@
             Date: 2019.12~2020.05 <br />
             Supporter: Contents Korea Lab Incheon <br />
           </h3>
-          <div class="align-image-to-center">
+          <div
+            class="align-image-to-center"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             <img
               src="/img/soulmark_app.png"
               class="img-fluid"
@@ -172,7 +206,13 @@
           </p>
         </div>
         <div class="art-project">
-          <h2 class="art-project-title">Starlight Engravings</h2>
+          <h2
+            class="art-project-title"
+            data-aos="zoom-in-right"
+            data-aos-duration="1500"
+          >
+            Starlight Engravings
+          </h2>
           <h3 class="art-project-summary">
             Category: Dream Journal <br />
             Role: Producer & Designer<br />
@@ -184,7 +224,7 @@
               ><strong>https://www.tumblbug.com/soulmark</strong> </a
             ><br />
           </h3>
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1500">
             <a href="https://www.tumblbug.com/soulmark"
               ><img
                 src="/img/starlight_engravings_dream_journal.jpg"
@@ -205,7 +245,13 @@
           </p>
         </div>
         <div class="art-project">
-          <h2 class="art-project-title">eosio HK Meetup</h2>
+          <h2
+            class="art-project-title"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+          >
+            eosio HK Meetup
+          </h2>
           <h3 class="art-project-summary">
             Category: 3D Projection Mapping (Stage AVL) <br />
             Role: Co-Producer <br />
@@ -215,7 +261,7 @@
               ><strong> https://www.youtube.com/watch?v=-LZ9vq5ev3Y</strong></a
             >
           </h3>
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1500">
             <a href="https://www.youtube.com/watch?v=-LZ9vq5ev3Y"
               ><img
                 src="/img/eosio_hk_meetup.png"
@@ -251,5 +297,8 @@
     </div>
 
     <script src="index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
