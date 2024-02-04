@@ -89,9 +89,10 @@ h3.art-project-summary {
   font-size: 18px;
 }
 
-.left-indent {
-  margin-left: 120px;
+.prototype-paragraph {
   margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .align-image-to-center {
