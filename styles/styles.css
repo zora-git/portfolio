@@ -81,6 +81,9 @@ h2.art-project-title {
   h2.art-project-title {
     font-size: 40px;
   }
+  h1.hero {
+    font-size: 45px;
+  }
 }
 
 h3.art-project-summary {
