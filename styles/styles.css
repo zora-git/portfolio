@@ -14,19 +14,19 @@ body {
   );
 }
 
-a:link {
+.intro a:link {
   text-decoration: none;
   color: black;
 }
-a:visited {
+.intro a:visited {
   text-decoration: none;
   color: black;
 }
-a:hover {
+.intro a:hover {
   text-decoration: none;
   color: black;
 }
-a:active {
+.intro a:active {
   text-decoration: none;
   color: black;
 }
@@ -163,4 +163,19 @@ h3.art-project-summary {
 .contact-container {
   text-align: center;
   margin-top: 150px;
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+  color: #816688;
+}
+
+.bg-body {
+  background-color: #fff6ec !important;
 }
