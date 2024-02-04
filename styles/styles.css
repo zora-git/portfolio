@@ -209,3 +209,21 @@ footer a:hover {
   color: #816688;
   transition: all 10ms ease-in-out;
 }
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  z-index: 10;
+}
