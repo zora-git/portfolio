@@ -89,15 +89,6 @@ h2.art-project-title {
   font-weight: 400;
 }
 
-@media (max-width: 768px) {
-  h2.art-project-title {
-    font-size: 40px;
-  }
-  h1.hero {
-    font-size: 45px;
-  }
-}
-
 h3.art-project-summary {
   font-family: var(--secondary-font-family);
   font-size: 16px;
@@ -241,4 +232,13 @@ footer a:hover {
   pointer-events: none;
   mix-blend-mode: multiply;
   z-index: 10;
+}
+
+@media (max-width: 768px) {
+  h2.art-project-title {
+    font-size: 40px;
+  }
+  h1.hero {
+    font-size: 45px;
+  }
 }
